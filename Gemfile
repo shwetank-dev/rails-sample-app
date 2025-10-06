@@ -21,6 +21,7 @@ gem "jbuilder"
 gem "bootstrap-sass"
 gem "sassc-rails"
 gem "rails-controller-testing"
+gem "bcrypt"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -47,7 +48,7 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
-  gem 'htmlbeautifier'
+  gem "htmlbeautifier"
 end
 
 group :development do
