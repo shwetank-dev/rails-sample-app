@@ -21,6 +21,7 @@ gem "jbuilder"
 gem "bootstrap-sass"
 gem "sassc-rails"
 gem "rails-controller-testing"
+gem "bcrypt"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
